@@ -8,12 +8,12 @@ public class Main {
 
         System.out.println("Wpisz 5 imion:");
 
-        for (int i = 0;i<5;i++){
+        for (int i = 0; i < 5; i++) {
 
-            tab[i]= scan.nextLine();
+            tab[i] = scan.nextLine();
         }
-        for (int i = 4;i>=0;i--){
-            System.out.printf("Cześć %s:\n",tab[i]);
+        for (int i = 4; i >= 0; i--) {
+            System.out.printf("Cześć %s:\n", tab[i]);
 
         }
 
